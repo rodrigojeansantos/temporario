@@ -1,0 +1,31 @@
+{
+  "name": "temporario",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.13.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-use": "^17.2.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "set PORT=3006 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigojeansantos/temporario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigojeansantos/temporario/issues"
+  },
+  "homepage": "https://github.com/rodrigojeansantos/temporario#readme"
+}

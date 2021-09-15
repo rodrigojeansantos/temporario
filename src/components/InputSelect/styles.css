@@ -1,0 +1,61 @@
+.input-select {
+    position: relative;
+}
+
+.input-select button{
+    all: unset;
+    cursor: pointer;
+}
+
+.input-select button:focus{
+    border: none
+}
+
+.input-select input{
+    cursor: pointer;
+}
+
+
+.input-select input:disabled{
+    background-color:white;
+}
+
+.select-seta {
+    position: absolute;
+    top: 2.2rem;
+    left: 34rem;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.baixo {
+    transform: rotate(180deg);
+}
+
+.select-drop{
+    position: absolute;
+    z-index: 13;
+    top: 8vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BEBEBE;
+    color: var(--cinza-escuro);
+    font-size: 1.6rem;
+    border-radius: 0.7rem;
+    padding: 1rem 0rem;
+    background-color: white;
+    width: 27vw;
+    max-height: 20vh;
+    overflow-y: auto;
+}
+
+.drop-itens{
+    color: var(--cinza-escuro);
+    font-size: 1.6rem;
+    padding: 1rem 2.4rem;
+}
+
+.drop-itens:hover{
+    background-color: #C9CCD199;
+    cursor: pointer;
+}
